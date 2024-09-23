@@ -1,0 +1,17 @@
+pip install sqlalchemy
+
+nullable=False
+uuid = for important data. Auto generated ID
+Base Model - Para saydantic (Data formatting )
+Base - Gikan sa sqlAlchemy
+sqlalcehemy - ORM(Object Relationship Mapping) Built in query instead of native query.
+class config - mag formulatesa pydantic na format.
+
+Migration
+(Delete ang Database)
+
+yield db = murag return db 
+SQLAlchemy Migration 
+
+Query sa Select All
+db = db.query(Department).filter(Department.is_active == True).all() 
